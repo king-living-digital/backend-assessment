@@ -1,6 +1,6 @@
 Introduction
 ---
-Thanks for taking the time to complete this backend technical assessment. We will be focusing on code quality (reusability, readability, maintainability, etc.). You will be required to setup a Magento 2 Instance to test the modules and be flexible to work on any instance without conflicts (for code reusability)
+Thanks for taking the time to complete this backend technical assessment. We will be focusing on code quality (reusability, readability, maintainability, etc.). You will be required to setup a Magento 2 Instance to create the modules, the modules should be flexible and work on any instance without conflicts (for code reusability)
 
 
 *Sprint 1*
@@ -11,7 +11,7 @@ Exercise 1 (Ticket ID: EX-01)
 ---
 Build a module that allows you to handle GeoIP and show the country code on the product page. 
 Build an update (as a feature branch) to the GeoIP module to show a static block on the product page depending on the country your visiting from. 
-Build an update (as a second feature branch) If the country is Russia or China, block them from accessing the site
+Build an update (as a second feature branch) if the country is Russia or China, block them from accessing the site.
 
 ##### Requirements
 1. Module has to utilize a GeoIP Database or External Source
@@ -28,7 +28,7 @@ Build an update (as a second feature branch) that converts the price on the go t
 Create a pull request for both your branches to be released to a release branch
 
 ##### Requirements
-1. Using the specification provided, generate a XML file that iterates through products in the system to populate the data for each node
+1. Using the specification provided, generate an XML file that iterates through products in the system to populate the data for each node
 2. The Feed should automatically generate every 24 hours using Magento standard CRON's
 3. Module Update: Your module will require a controller that can be executed manually to view the results of the feed.
 4. Module Update 2: Use fixer.io to do a curl out to retrieve the current price converted into USD and render as a new node "g:converted_price"
@@ -37,11 +37,11 @@ Create a pull request for both your branches to be released to a release branch
 * The use of the best practice coding for Magento 2
 * Code readability and structure
 * Use of controllers/plugins/observers
-* Code optimization 
+* Code optimization
 
 ###### Notes
 * Feature branch is a new feature based on the master branch, ensure that the format follows TICKET_ID-description-of-task (EX-00-example-task)
 * The release branch is created at the end for work to be released to production, its the last check before production release, ensure that the format follows YYYY-M-SPRINT_NO (2018-JUL-2)
 
 ###### Submission
-* If you are to perform this task, you can fork this onto your Github account and work from there and send back your forked Github repository to us afterwards for assessment. This will allow us to see your branching structure and obtain the code for installation and review. We will provide the structure within our repository to get you started as if we were in the base of Magento directory and you are making updates to an "existing site"
+* If you are to perform this task, you can fork this onto your Github account and work from there and send back your forked Github repository to us afterwards for assessment. This will allow us to see your branching structure and obtain the code for installation and review.
