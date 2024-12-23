@@ -2,10 +2,9 @@ Introduction
 ---
 Thanks for taking the time to complete this backend technical assessment. We will be focusing on code quality (reusability, readability, maintainability, etc.). You will be required to setup a Magento 2 Instance to create the modules, the modules should be flexible and work on any instance without conflicts (for code reusability)
 
-
 *Sprint 1*
 
-*Estimated Time: 3h each* 
+*Estimated Time: 3h* 
 
 Exercise 1 (Ticket ID: EX-01)
 ---
@@ -19,19 +18,6 @@ Build an update (as a second feature branch) if the country is Russia or China, 
 3. Module must render the country code on the product page
 4. Module Update: If you are from the US, render the US static block, If you are from anywhere else, render the Global static block
 5. Module Update: Determine if the country is Russia or China and have them redirect to the error page of Magento
-
-Exercise 2 (Ticket ID: EX-02)
----
-Build a module that allows the system to generate a Google Feed (https://support.google.com/merchants/answer/160589?hl=en#) every 24 hours via CRON
-Build an update (as a feature branch) to the feed that allows you to execute manually and view the results of the feed through a controller in Magento
-Build an update (as a second feature branch) that converts the price on the go to USD
-Create a pull request for both your branches to be released to a release branch
-
-##### Requirements
-1. Using the specification provided, generate an XML file that iterates through products in the system to populate the data for each node
-2. The Feed should automatically generate every 24 hours using Magento standard CRON's
-3. Module Update: Your module will require a controller that can be executed manually to view the results of the feed.
-4. Module Update 2: Use fixer.io to do a curl out to retrieve the current price converted into USD and render as a new node "g:converted_price"
 
 ###### Bonus points
 * The use of the best practice coding for Magento 2
